@@ -13,6 +13,8 @@ firebase-bom = "33.3.0"
 play-services-maps = "18.1.0"
 play-services-location = "21.0.1"
 coroutines = "1.8.1"
+navigationRuntimeAndroid = "2.9.4"
+navigationComposeJvmstubs = "2.9.4"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -41,6 +43,8 @@ play-services-location = { module = "com.google.android.gms:play-services-locati
 
 # Coroutines
 coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+androidx-navigation-runtime-android = { group = "androidx.navigation", name = "navigation-runtime-android", version.ref = "navigationRuntimeAndroid" }
+androidx-navigation-compose-jvmstubs = { group = "androidx.navigation", name = "navigation-compose-jvmstubs", version.ref = "navigationComposeJvmstubs" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

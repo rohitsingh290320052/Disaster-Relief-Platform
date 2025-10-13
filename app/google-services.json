@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:745135439419:android:db23a5d9c8d0b3a815261e",
         "android_client_info": {
-          "package_name": "om.example.disasterrelief"
+          "package_name": "com.example.disasterrelief"
         }
       },
       "oauth_client": [],
